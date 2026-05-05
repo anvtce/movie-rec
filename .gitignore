@@ -10,3 +10,4 @@ wheels/
 .venv
 
 movielens_20m_data/
+.gitnexus
