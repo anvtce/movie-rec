@@ -1,7 +1,7 @@
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **movie_rec_system** (54 symbols, 64 relationships, 0 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+This project is indexed by GitNexus as **movie-rec** (134 symbols, 133 relationships, 0 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
 
 > If any GitNexus tool warns the index is stale, run `npx gitnexus analyze` in terminal first.
 
@@ -24,10 +24,10 @@ This project is indexed by GitNexus as **movie_rec_system** (54 symbols, 64 rela
 
 | Resource | Use for |
 |----------|---------|
-| `gitnexus://repo/movie_rec_system/context` | Codebase overview, check index freshness |
-| `gitnexus://repo/movie_rec_system/clusters` | All functional areas |
-| `gitnexus://repo/movie_rec_system/processes` | All execution flows |
-| `gitnexus://repo/movie_rec_system/process/{name}` | Step-by-step execution trace |
+| `gitnexus://repo/movie-rec/context` | Codebase overview, check index freshness |
+| `gitnexus://repo/movie-rec/clusters` | All functional areas |
+| `gitnexus://repo/movie-rec/processes` | All execution flows |
+| `gitnexus://repo/movie-rec/process/{name}` | Step-by-step execution trace |
 
 ## CLI
 
