@@ -68,6 +68,12 @@
 
 ---
 
+**Q: Tại sao chia dữ liệu theo tỉ lệ 80% huấn luyện và 20% kiểm tra? Không phải 70/30 hay 90/10?**
+
+> Đây là tỉ lệ phổ biến và được chấp nhận rộng rãi trong Machine Learning vì lý do thực tế: **80% đủ lớn** để mô hình học được các mẫu phức tạp trong dữ liệu — nếu train ít hơn (ví dụ 70%), mô hình dễ bị underfitting; **20% đủ đại diện** để đánh giá khách quan — nếu test quá ít (ví dụ 10%), kết quả đánh giá dễ bị may rủi, không phản ánh đúng hiệu năng thực tế. Với bộ dữ liệu 20 triệu bản ghi, 20% tương đương 4 triệu bản ghi kiểm tra — con số rất lớn, đảm bảo độ tin cậy thống kê cao.
+
+---
+
 **Q: Hệ thống đánh giá độ chính xác bằng cách nào?**
 
 > Nhóm dùng chỉ số **RMSE** (Root Mean Squared Error — căn bậc hai của sai số bình phương trung bình). Mô hình được huấn luyện trên 80% dữ liệu, sau đó dự đoán trên 20% còn lại và so sánh với điểm đánh giá thực tế. RMSE càng nhỏ thì mô hình dự đoán càng chính xác.
